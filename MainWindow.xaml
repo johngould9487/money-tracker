@@ -6,7 +6,5 @@
         xmlns:local="clr-namespace:money_tracker"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <DataGrid x:Name="myTable" HorizontalAlignment="Left" Height="403" Margin="10,10,0,0" VerticalAlignment="Top" Width="775" ItemsSource="{Binding}"/>
-    </Grid>
+    <Grid/>
 </Window>

@@ -24,16 +24,6 @@ namespace money_tracker
         public MainWindow()
         {
             InitializeComponent();
-            DataTable table = new DataTable();
-            table.Columns.Add("Forename", typeof(string));
-            table.Columns.Add("Surname", typeof(string));
-            table.Columns.Add("Age", typeof(int));
-            DataRow row = table.NewRow();
-            row["Forename"] = "John";
-            row["Surname"] = "Gould";
-            row["Age"] = 28;
-            table.Rows.Add(row);
-            myTable.DataContext = table;
         }
     }
 }
